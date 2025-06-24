@@ -1,3 +1,11 @@
+---
+// 使用 Astro 的图片导入（推荐方式）
+import heroImg from '../assets/imgs/1.png';
+import screenshot1 from '../assets/imgs/1.png';
+import screenshot2 from '../assets/imgs/2.png';
+import screenshot3 from '../assets/imgs/3.png';
+---
+
 <div id="container">
 	<main>
 		<!-- Hero Section -->
@@ -15,7 +23,7 @@
 				</div>
 			</div>
 			<div class="hero-image">
-				<img src="/src/assets/imgs/1.png" alt="APIMan Interface" />
+				<img src={heroImg.src} alt="APIMan Interface" />
 			</div>
 		</section>
 
@@ -65,15 +73,15 @@
 			<h2>See APIMan in Action</h2>
 			<div class="screenshots-grid">
 				<div class="screenshot">
-					<img src="/src/assets/imgs/1.png" alt="APIMan Main Interface" />
+					<img src={screenshot1.src} alt="APIMan Main Interface" />
 					<p>Intuitive Request Builder</p>
 				</div>
 				<div class="screenshot">
-					<img src="/src/assets/imgs/2.png" alt="APIMan Response Viewer" />
+					<img src={screenshot2.src} alt="APIMan Response Viewer" />
 					<p>Advanced Response Analysis</p>
 				</div>
 				<div class="screenshot">
-					<img src="/src/assets/imgs/3.png" alt="APIMan Collection Management" />
+					<img src={screenshot3.src} alt="APIMan Collection Management" />
 					<p>Organized Collections</p>
 				</div>
 			</div>

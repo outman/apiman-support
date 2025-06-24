@@ -1,0 +1,399 @@
+<div id="container">
+	<main>
+		<!-- Hero Section -->
+		<section id="hero">
+			<div class="hero-content">
+				<h1>APIMan</h1>
+				<p class="hero-subtitle">The Ultimate HTTP GUI Request Client for macOS</p>
+				<p class="hero-description">
+					Streamline your API development with a powerful, native macOS application designed for performance, 
+					security, and seamless collaboration across all your devices.
+				</p>
+				<div class="cta-buttons">
+					<a href="#features" class="button primary">Learn More</a>
+					<a href="#download" class="button secondary">Download Now</a>
+				</div>
+			</div>
+			<div class="hero-image">
+				<img src="/src/assets/imgs/1.png" alt="APIMan Interface" />
+			</div>
+		</section>
+
+		<!-- Features Section -->
+		<section id="features">
+			<h2>Why Choose APIMan?</h2>
+			<div class="features-grid">
+				<div class="feature-card">
+					<div class="feature-icon">
+						<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</div>
+					<h3>Native macOS Performance</h3>
+					<p>Built specifically for macOS with native optimizations, delivering exceptional performance and a lightweight footprint that won't slow down your system.</p>
+				</div>
+				
+				<div class="feature-card">
+					<div class="feature-icon">
+						<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z" stroke="currentColor" stroke-width="2"/>
+							<path d="M12 6V12L16 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</div>
+					<h3>CloudKit Sync</h3>
+					<p>Seamlessly sync your API collections, requests, and settings across all your Apple devices using Apple's secure CloudKit infrastructure.</p>
+				</div>
+				
+				<div class="feature-card">
+					<div class="feature-icon">
+						<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M12 1L3 5V11C3 16.55 6.84 21.74 12 23C17.16 21.74 21 16.55 21 11V5L12 1Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M12 12L12 22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							<path d="M16 12L8 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</svg>
+					</div>
+					<h3>Privacy & Security First</h3>
+					<p>Your data stays private and secure, stored locally on your device and in Apple's trusted CloudKit ecosystem. No third-party servers involved.</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Screenshots Section -->
+		<section id="screenshots">
+			<h2>See APIMan in Action</h2>
+			<div class="screenshots-grid">
+				<div class="screenshot">
+					<img src="/src/assets/imgs/1.png" alt="APIMan Main Interface" />
+					<p>Intuitive Request Builder</p>
+				</div>
+				<div class="screenshot">
+					<img src="/src/assets/imgs/2.png" alt="APIMan Response Viewer" />
+					<p>Advanced Response Analysis</p>
+				</div>
+				<div class="screenshot">
+					<img src="/src/assets/imgs/3.png" alt="APIMan Collection Management" />
+					<p>Organized Collections</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Download Section -->
+		<section id="download">
+			<div class="download-content">
+				<h2>Ready to Get Started?</h2>
+				<p>Download APIMan today and experience the future of API development on macOS.</p>
+				<a href="#" class="button primary large">Download for macOS</a>
+				<p class="system-requirements">Requires macOS 14.6 or later</p>
+			</div>
+		</section>
+	</main>
+</div>
+
+<style>
+	#container {
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+		line-height: 1.6;
+		color: #333;
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		min-height: 100vh;
+	}
+
+	main {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
+
+	/* Hero Section */
+	#hero {
+		display: flex;
+		align-items: center;
+		min-height: 80vh;
+		gap: 60px;
+		padding: 60px 0;
+	}
+
+	.hero-content {
+		flex: 1;
+		color: white;
+	}
+
+	.hero-content h1 {
+		font-size: 4rem;
+		font-weight: 700;
+		margin: 0 0 20px 0;
+		background: linear-gradient(45deg, #fff, #f0f0f0);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-clip: text;
+	}
+
+	.hero-subtitle {
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin: 0 0 20px 0;
+		color: #e0e0e0;
+	}
+
+	.hero-description {
+		font-size: 1.1rem;
+		margin: 0 0 40px 0;
+		color: #d0d0d0;
+		max-width: 500px;
+	}
+
+	.hero-image {
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.hero-image img {
+		max-width: 100%;
+		height: auto;
+		border-radius: 12px;
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+	}
+
+	/* Buttons */
+	.cta-buttons {
+		display: flex;
+		gap: 20px;
+		flex-wrap: wrap;
+	}
+
+	.button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		padding: 15px 30px;
+		border-radius: 10px;
+		text-decoration: none;
+		font-weight: 600;
+		font-size: 1rem;
+		transition: all 0.3s ease;
+		border: none;
+		cursor: pointer;
+	}
+
+	.button.primary {
+		background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+		color: white;
+		box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+	}
+
+	.button.primary:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+	}
+
+	.button.secondary {
+		background: rgba(255, 255, 255, 0.1);
+		color: white;
+		border: 2px solid rgba(255, 255, 255, 0.3);
+		backdrop-filter: blur(10px);
+	}
+
+	.button.secondary:hover {
+		background: rgba(255, 255, 255, 0.2);
+		border-color: rgba(255, 255, 255, 0.5);
+	}
+
+	.button.large {
+		padding: 20px 40px;
+		font-size: 1.2rem;
+	}
+
+	/* Features Section */
+	#features {
+		padding: 100px 0;
+		background: white;
+		border-radius: 30px 30px 0 0;
+		margin-top: -30px;
+		position: relative;
+		z-index: 1;
+	}
+
+	#features h2 {
+		text-align: center;
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin: 0 0 60px 0;
+		color: #333;
+	}
+
+	.features-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 40px;
+		margin: 0 20px;
+	}
+
+	.feature-card {
+		text-align: center;
+		padding: 40px 30px;
+		border-radius: 20px;
+		background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+	.feature-card:hover {
+		transform: translateY(-10px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+	}
+
+	.feature-icon {
+		width: 80px;
+		height: 80px;
+		margin: 0 auto 30px;
+		background: linear-gradient(45deg, #667eea, #764ba2);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+	}
+
+	.feature-card h3 {
+		font-size: 1.5rem;
+		font-weight: 600;
+		margin: 0 0 20px 0;
+		color: #333;
+	}
+
+	.feature-card p {
+		color: #666;
+		font-size: 1rem;
+		line-height: 1.6;
+		margin: 0;
+	}
+
+	/* Screenshots Section */
+	#screenshots {
+		padding: 100px 0;
+		background: #f8f9fa;
+	}
+
+	#screenshots h2 {
+		text-align: center;
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin: 0 0 60px 0;
+		color: #333;
+	}
+
+	.screenshots-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 40px;
+		margin: 0 20px;
+	}
+
+	.screenshot {
+		text-align: center;
+	}
+
+	.screenshot img {
+		width: 100%;
+		height: auto;
+		border-radius: 12px;
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+		transition: transform 0.3s ease;
+	}
+
+	.screenshot img:hover {
+		transform: scale(1.05);
+	}
+
+	.screenshot p {
+		margin-top: 20px;
+		font-size: 1.1rem;
+		font-weight: 500;
+		color: #333;
+	}
+
+	/* Download Section */
+	#download {
+		padding: 100px 0;
+		background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+		text-align: center;
+		color: white;
+	}
+
+	.download-content h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin: 0 0 20px 0;
+	}
+
+	.download-content p {
+		font-size: 1.2rem;
+		margin: 0 0 40px 0;
+		color: #e0e0e0;
+	}
+
+	.system-requirements {
+		margin-top: 20px;
+		font-size: 0.9rem;
+		color: #ccc;
+	}
+
+	/* Responsive Design */
+	@media (max-width: 768px) {
+		#hero {
+			flex-direction: column;
+			text-align: center;
+			padding: 40px 0;
+		}
+
+		.hero-content h1 {
+			font-size: 2.5rem;
+		}
+
+		.hero-subtitle {
+			font-size: 1.2rem;
+		}
+
+		.cta-buttons {
+			justify-content: center;
+		}
+
+		.features-grid {
+			grid-template-columns: 1fr;
+			margin: 0 10px;
+		}
+
+		.screenshots-grid {
+			grid-template-columns: 1fr;
+			margin: 0 10px;
+		}
+
+		#features h2,
+		#screenshots h2,
+		.download-content h2 {
+			font-size: 2rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		main {
+			padding: 0 15px;
+		}
+
+		.hero-content h1 {
+			font-size: 2rem;
+		}
+
+		.button {
+			padding: 12px 24px;
+			font-size: 0.9rem;
+		}
+
+		.feature-card {
+			padding: 30px 20px;
+		}
+	}
+</style>

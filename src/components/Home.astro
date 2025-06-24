@@ -14,12 +14,13 @@ import screenshot3 from '../assets/imgs/3.png';
 				<h1>APIMan</h1>
 				<p class="hero-subtitle">The Ultimate HTTP GUI Request Client for macOS</p>
 				<p class="hero-description">
-					Streamline your API development with a powerful, native macOS application designed for performance, 
+					Streamline your API development with a powerful, native macOS application designed for performance,
 					security, and seamless collaboration across all your devices.
 				</p>
 				<div class="cta-buttons">
 					<a href="#features" class="button primary">Learn More</a>
 					<a href="#download" class="button secondary">Download Now</a>
+					<a href="#contact" class="button secondary">Contact Us</a>
 				</div>
 			</div>
 			<div class="hero-image">
@@ -42,7 +43,7 @@ import screenshot3 from '../assets/imgs/3.png';
 					<h3>Native macOS Performance</h3>
 					<p>Built specifically for macOS with native optimizations, delivering exceptional performance and a lightweight footprint that won't slow down your system.</p>
 				</div>
-				
+
 				<div class="feature-card">
 					<div class="feature-icon">
 						<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +54,7 @@ import screenshot3 from '../assets/imgs/3.png';
 					<h3>CloudKit Sync</h3>
 					<p>Seamlessly sync your API collections, requests, and settings across all your Apple devices using Apple's secure CloudKit infrastructure.</p>
 				</div>
-				
+
 				<div class="feature-card">
 					<div class="feature-icon">
 						<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,6 +95,51 @@ import screenshot3 from '../assets/imgs/3.png';
 				<p>Download APIMan today and experience the future of API development on macOS.</p>
 				<a href="#" class="button primary large">Download for macOS</a>
 				<p class="system-requirements">Requires macOS 14.6 or later</p>
+			</div>
+		</section>
+
+		<!-- Contact Section -->
+		<section id="contact">
+			<div class="contact-content">
+				<h2>Contact Us</h2>
+				<p>Have questions or suggestions? We'd love to hear from you!</p>
+				<div class="contact-grid">
+					<div class="contact-card">
+						<div class="contact-icon">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								<polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<h3>Email</h3>
+						<p>pochonlee@gmail.com</p>
+						<a href="mailto:pochonlee@gmail.com" class="contact-link">Send Email</a>
+					</div>
+
+					<div class="contact-card">
+						<div class="contact-icon">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M18 2H22V6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M7 13L2 18L7 23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								<path d="M22 11C19.24 11 17 8.76 17 6C17 3.24 19.24 1 22 1V11Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<h3>GitHub</h3>
+						<p>Follow project updates</p>
+						<a href="https://github.com/outman/apiman-support" class="contact-link" target="_blank" rel="noopener">Visit Repository</a>
+					</div>
+
+					<div class="contact-card">
+						<div class="contact-icon">
+							<svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</div>
+						<h3>Feedback</h3>
+						<p>Report issues or suggest features</p>
+						<a href="https://github.com/outman/apiman-support/issues" class="contact-link" target="_blank" rel="noopener">Submit Feedback</a>
+					</div>
+				</div>
 			</div>
 		</section>
 	</main>
@@ -349,6 +395,86 @@ import screenshot3 from '../assets/imgs/3.png';
 		color: #ccc;
 	}
 
+	/* Contact Section */
+	#contact {
+		padding: 100px 0;
+		background: white;
+		text-align: center;
+	}
+
+	.contact-content h2 {
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin: 0 0 20px 0;
+		color: #333;
+	}
+
+	.contact-content > p {
+		font-size: 1.2rem;
+		margin: 0 0 60px 0;
+		color: #666;
+	}
+
+	.contact-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 40px;
+		margin: 0 20px;
+	}
+
+	.contact-card {
+		padding: 40px 30px;
+		border-radius: 20px;
+		background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+		transition: transform 0.3s ease, box-shadow 0.3s ease;
+	}
+
+	.contact-card:hover {
+		transform: translateY(-10px);
+		box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+	}
+
+	.contact-icon {
+		width: 80px;
+		height: 80px;
+		margin: 0 auto 30px;
+		background: linear-gradient(45deg, #667eea, #764ba2);
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: white;
+	}
+
+	.contact-card h3 {
+		font-size: 1.5rem;
+		font-weight: 600;
+		margin: 0 0 15px 0;
+		color: #333;
+	}
+
+	.contact-card p {
+		color: #666;
+		font-size: 1rem;
+		margin: 0 0 20px 0;
+	}
+
+	.contact-link {
+		display: inline-block;
+		padding: 12px 24px;
+		background: linear-gradient(45deg, #667eea, #764ba2);
+		color: white;
+		text-decoration: none;
+		border-radius: 8px;
+		font-weight: 600;
+		transition: all 0.3s ease;
+	}
+
+	.contact-link:hover {
+		transform: translateY(-2px);
+		box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+	}
+
 	/* Responsive Design */
 	@media (max-width: 768px) {
 		#hero {
@@ -382,6 +508,15 @@ import screenshot3 from '../assets/imgs/3.png';
 		#features h2,
 		#screenshots h2,
 		.download-content h2 {
+			font-size: 2rem;
+		}
+
+		.contact-grid {
+			grid-template-columns: 1fr;
+			margin: 0 10px;
+		}
+
+		.contact-content h2 {
 			font-size: 2rem;
 		}
 	}
